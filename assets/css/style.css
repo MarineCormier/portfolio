@@ -1,0 +1,152 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: middle; }
+
+body {
+  overflow: hidden;
+  background-color: #F5F5F5;
+  background-image: url("../img/overlayTexture.png");
+  height: 100vh;
+  width: 100%;
+  background-attachment: fixed; }
+
+.ligne1 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 50vh 50vh;
+  width: 100%;
+  height: 100%;
+  text-align: center; }
+
+.case1 {
+  background-image: url("../img/plume.jpg");
+  display: block;
+  width: 100%;
+  border-right: 1px solid #000;
+  border-bottom: 1px solid #000;
+  grid-colums: 1;
+  grid-rows: 1; }
+
+.case1:hover {
+  background-image: url("../img/marbre.jpg");
+  background-size: cover;
+  overflow: hidden;
+  transition: width 2s ease-in 1s; }
+
+h1 {
+  margin: auto;
+  width: 75%; }
+
+.titre {
+  padding-top: 5%;
+  margin-top: 45%;
+  margin-bottom: 10%;
+  border: 1px solid #000;
+  border-bottom: none;
+  color: #000;
+  font-family: "Roboto";
+  font-size: 1.5em;
+  font-weight: bold; }
+
+.ss-titre {
+  padding-bottom: 5%;
+  margin-bottom: 50%;
+  color: #000;
+  border: 1px solid #000;
+  border-top: none;
+  font-family: "Roboto";
+  font-size: 1em; }
+
+.ligne1 .case2 {
+  background-image: url("../img/papier.jpg");
+  background-size: cover;
+  overflow: hidden;
+  border-left: 1px solid #000;
+  width: 100%;
+  grid-colums: 2;
+  grid-rows: 1; }
+
+.ligne1 .case3 {
+  background-color: #510002;
+  width: 100%;
+  border-bottom: 1px solid #000;
+  border-left: 1px solid #000;
+  grid-colums: 3;
+  grid-rows: 1; }
+
+.ligne1 .case4 {
+  background-color: #510002;
+  z-index: 1;
+  display: flex;
+  width: 100%;
+  border-bottom: 1px solid #000;
+  grid-colums: 4;
+  grid-rows: 1; }
+
+.ligne1 .case5 {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  border-right: 1px solid #000;
+  grid-colums: 1;
+  grid-rows: 2; }
+
+.ligne1 .case6 {
+  background-image: url("../img/papier.jpg");
+  background-size: cover;
+  overflow: hidden;
+  border-left: 1px solid #000;
+  width: 100%;
+  border-right: 1px solid #000;
+  grid-colums: 2;
+  grid-rows: 2; }
+
+.ligne1 .case7 {
+  width: 100%;
+  border-right: 1px solid #000;
+  grid-colums: 3;
+  grid-rows: 2; }
+
+.ligne1 .case8 {
+  background-image: url("../img/glace.jpg");
+  border-left: 1px solid #000;
+  background-size: cover;
+  overflow: hidden;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  grid-colums: 4;
+  grid-rows: 2; }
+
+#sentence {
+  margin-top: 85%;
+  font-size: 1.5em;
+  font-family: 'Anton', sans-serif; }
+
+.carrousel2 {
+  display: flex;
+  z-index: 0;
+  width: 100%;
+  overflow: hidden;
+  background-size: cover;
+  height: 100%; }
+
+.arsene {
+  width: 20vh;
+  height: 20vh; }
